@@ -259,12 +259,12 @@ export default function LandingPage() {
                       <div className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse" />
                       Live Quote
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900">MacBook Air M1</h3>
+                    <h3 className="text-xl font-bold text-gray-900">MacBook Air M2</h3>
                     <p className="text-gray-400 text-sm mt-0.5">256GB • 8GB • Good Condition</p>
                   </div>
                   <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 animate-gradient rounded-2xl p-5 text-center text-white mb-5 relative overflow-hidden">
                     <p className="text-indigo-200 text-xs mb-1 font-medium">Your Device Value</p>
-                    <p className="text-4xl font-extrabold tracking-tight">₹52,000</p>
+                    <p className="text-4xl font-extrabold tracking-tight">₹48,500</p>
                   </div>
                   <div className="space-y-3">
                     {['Free doorstep pickup', 'Same day UPI payment', 'Secure data wipe'].map((t, i) => (
@@ -310,12 +310,12 @@ export default function LandingPage() {
             <div className="lg:hidden animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
               <div className="bg-white rounded-2xl shadow-xl p-5 border border-gray-100 max-w-sm mx-auto">
                 <div className="text-center mb-4">
-                  <h3 className="text-lg font-bold text-gray-900">MacBook Air M1</h3>
+                  <h3 className="text-lg font-bold text-gray-900">MacBook Air M2</h3>
                   <p className="text-gray-400 text-sm">256GB • Good Condition</p>
                 </div>
                 <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl p-4 text-center text-white">
                   <p className="text-indigo-200 text-xs mb-0.5">Get up to</p>
-                  <p className="text-3xl font-extrabold">₹52,000</p>
+                  <p className="text-3xl font-extrabold">₹48,500</p>
                 </div>
                 <button onClick={() => navigate('/dashboard/sell')}
                   className="w-full mt-4 bg-gray-900 text-white py-3 rounded-xl font-semibold text-sm">
