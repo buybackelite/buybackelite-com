@@ -8,3 +8,6 @@ Disallow: /register
 # Block admin and agent paths
 Disallow: /infra-control/
 Disallow: /field-tech/
+
+# Sitemap
+Sitemap: https://www.buybackelite.com/sitemap.xml
